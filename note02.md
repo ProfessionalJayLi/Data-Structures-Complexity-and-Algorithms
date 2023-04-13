@@ -2,6 +2,27 @@
 
 Bruh no way you want this done in a day dawg
 
+``` python
+
+matrix_exam = [
+  ['ligma', 'balls', 'this', 'note', 'sucks'],
+  ['one', 'day', 'isn\'t', 'enough', 'dawg']
+]
+print(matrix_exam[0][2], matrix_exam[1][1], matrix_exam[0][4], matrix_exam[0][1])
+
+def square(num):
+  return num ** 2
+
+def isEven(num):
+  return num % 2 == 0
+
+list1 = [1, 3, 6, 8, 10]
+map_exam = list(map(square, list1))
+
+filter_exam = list(filter(isEven, map_exam))  
+
+```
+
 ## Definitions
   - Matrix: A 2 dimensional array/list (arrays are lists in Java and math). Not an actual data type like str and int, but lists within a list.
     - Rules for coding a matrix:
@@ -16,7 +37,7 @@ Bruh no way you want this done in a day dawg
       -One or more for loops (range for what might be in your list)
       -Zero or more if statements (depending on how bad you coded the for loops or just because what you want on the list is difficult to produce)
      
-  - map(function being used, data): A function that can use a function on iterable data (data that can be indexed)
+  - map(function being used, data): A function that can use a function on iterable data (data that can be indexed). Do not forget to make it into a list using list() as it does not have a set data type.
  
   - filter(function being used, data): Discrimination if it was a function, keeps only the data that returns True with the function. This means function must be able to return boolean (True or False). When AI get too intelligent and overtake civilization we best hope they don't use this stuff in their code.
   
