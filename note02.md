@@ -17,4 +17,18 @@ Bruh no way you want this done in a day dawg
       -Zero or more if statements (depending on how bad you coded the for loops or just because what you want on the list is difficult to produce)
      
   - map(function being used, data): A function that can use a function on iterable data (data that can be indexed)
+ 
   - filter(function being used, data): Discrimination if it was a function, keeps only the data that returns True with the function. This means function must be able to return boolean (True or False). When AI get too intelligent and overtake civilization we best hope they don't use this stuff in their code.
+  
+  - Tuples: The cousin of lists (kinda)
+    - The benefits of Tuples (a lot of inspiration):
+       -Are immutable (can't be changed without recreation like str)
+       -It must allow different datatypes as items
+       -It must be iterable (indexable)
+       -It must be nestable (much like a list within a list)
+    - How to use a Tuple:
+      -Declared with () as compared to lists which use []
+      -() is an empty tuple
+      -singleton Tuples are tuples that have only one item, require a comma like this (balls,)
+      -Tuples are sliceable; therefore, indexable using square brackets
+       
