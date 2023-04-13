@@ -36,8 +36,8 @@ Bruh no way you want this done in a day dawg
 
   - set(data): Noah's Ark as a function but instead of 2 of each it only brings 1.
 
-  - Dictionary: basically a handicapped class. Uses {} like set but better. "Initializes" using :. It copies attributes by calling it keys, that's more inspiration than what I did for this note.
+  - Dictionary: basically a copy cat of class. Uses {} like set but better. "Initializes" using :. It copies attributes by calling it keys, that's more inspiration than what I did for this note.
 
-  -dict(data):
+  - dict(data): turns other data types into dictionaries
     
        
