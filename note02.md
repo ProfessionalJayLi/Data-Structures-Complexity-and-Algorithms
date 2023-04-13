@@ -31,4 +31,8 @@ Bruh no way you want this done in a day dawg
       -() is an empty tuple
       -singleton Tuples are tuples that have only one item, require a comma like this (balls,)
       -Tuples are sliceable; therefore, indexable using square brackets
+      
+  - Set: Population control set to 1, removes all duplicates within it. Uses {} except when it's empty you use set(). It reorders the data from right to left (outputs the last index first, but when it sees a duplicate it sents those to the end of output)
+
+  - set(data): Noah's Ark as a function but instead of 2 of each it only brings 1.
        
