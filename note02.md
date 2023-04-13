@@ -15,3 +15,6 @@ Bruh no way you want this done in a day dawg
       -Empty list or one with for loops
       -One or more for loops (range for what might be in your list)
       -Zero or more if statements (depending on how bad you coded the for loops or just because what you want on the list is difficult to produce)
+     
+  - map(function being used, data): A function that can use a function on iterable data (data that can be indexed)
+  - filter(function being used, data): Discrimination if it was a function, keeps only the data that returns True with the function. This means function must be able to return boolean (True or False). When AI get too intelligent and overtake civilization we best hope they don't use this stuff in their code.
