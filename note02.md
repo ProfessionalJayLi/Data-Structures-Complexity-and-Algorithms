@@ -21,6 +21,23 @@ map_exam = list(map(square, list1))
 
 filter_exam = list(filter(isEven, map_exam))  
 
+tuple_exam = (2, 6, 4, 7, 8)
+tuple_exam2 = ('holy', "s")
+
+print(tuple_exam[4], tuple_exam2[0])
+
+import random
+liste = [random.randint(0, 10) for i in range(0,25)]
+set_exam = set(liste)
+
+diction_exam = {
+    'race': 'Asian',
+    'age': 17,
+    'male': True,
+    'marital_status': 'Single'
+}
+print("meet a", diction_exam['marital_status'], diction_exam['age'], diction_exam['race'])
+
 ```
 
 ## Definitions
